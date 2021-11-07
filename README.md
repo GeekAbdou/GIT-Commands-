@@ -16,7 +16,9 @@ git pull "remoteName" "BranchName" (git pull origin master )
 
 
 git remote add "remoteName" "url.git" 
+
 ---
+
 public SSH key 
 
 ssh-keygen -t rsa -b 4096 -c "email@mail.com" 
@@ -26,9 +28,11 @@ ssh -T "email@mail.com"
 then authenticate
 
 ---
+
 git config --global alias.st status (make st => status "shourtcus")
 
 git config --global alias.cm 'commit -m'
+
 ---
 
 git branch "branchName" (create new branch)
@@ -44,6 +48,7 @@ git branch -m "NewBranchName" (rename current branch)
 ---
 
 git merge "other branchName" (merge other branchName with current branch)
+
 ---
 
 git stash add (add all changes to stash)
