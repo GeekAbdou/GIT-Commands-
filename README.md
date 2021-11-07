@@ -16,7 +16,7 @@ git pull "remoteName" "BranchName" (git pull origin master )
 
 
 git remote add "remoteName" "url.git" 
-=================================================================================
+---
 public SSH key 
 
 ssh-keygen -t rsa -b 4096 -c "email@mail.com" 
@@ -25,11 +25,11 @@ then add to github account
 ssh -T "email@mail.com"
 then authenticate
 
-===================================================================================
+---
 git config --global alias.st status (make st => status "shourtcus")
 
 git config --global alias.cm 'commit -m'
-====================================================================================
+---
 
 git branch "branchName" (create new branch)
 
@@ -41,10 +41,10 @@ git branch -d "branchName" (delete branch) "Note: "-D" for force delete and "-d"
 
 git branch -m "NewBranchName" (rename current branch)
 
-=======================================================================================
+---
 
 git merge "other branchName" (merge other branchName with current branch)
-===========================================================
+---
 
 git stash add (add all changes to stash)
 
@@ -68,7 +68,7 @@ git stash show "stash@{number}"
 
 git stash clear
 
-================================================================================================
+---
 
 git restore 
 
@@ -76,14 +76,14 @@ git clean -n
 
 git clean -f
 
-===============================================================================================
+--- 
 git reset head "dir" (remove file or file)
 
 git reset --hard "hash"
 
 git push origin main --force 
 
-===================================================================================================
+---
 .gitigone 
 
 to include all files with extension .xxx => *.xxx
@@ -96,7 +96,7 @@ for exact file => file.ext
 
 push --force will override 
 
-======================================================================================================
+---
 
 git tag "version x"
 
